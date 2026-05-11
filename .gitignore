@@ -1,0 +1,33 @@
+# 機密情報
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# 個人情報
+clients-private/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*~
+
+# ビルド成果物
+dist/
+build/
+node_modules/
+.next/
+.nuxt/
+
+# ログ
+*.log
+npm-debug.log*
+yarn-debug.log*
